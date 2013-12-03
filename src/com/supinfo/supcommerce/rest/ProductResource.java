@@ -24,14 +24,14 @@ import com.supinfo.supcommerce.entity.Product;
  * @since SupCommerce 5.1
  */
 @Path("/products")
-public class ProductRessource {
+public class ProductResource {
 	
 	private final ProductDao	productDao;
 	
 	/**
 	 * Constructor
 	 */
-	public ProductRessource() {
+	public ProductResource() {
 		this.productDao = DaoFactory.getProductDao();
 	}
 	
